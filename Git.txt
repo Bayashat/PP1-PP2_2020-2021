@@ -1,0 +1,7 @@
+	!!! 1.If it's a new repository:
+1. After creating a reposittory, go to VS code, write: 
+ "git init" + "git add . " + "git commit -m "Write any commit"" + 
+ "git branch -M main" + git remote add origin "link of your repos." + "git push -u origin main".
+
+	!!! 2.If you want to modify the existing repository.(for egamle, you created a new 1.cpp)
+ git add . 1.cpp + git commit -m "Write any commit" + "git push -u origin main" . 
