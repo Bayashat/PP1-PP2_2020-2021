@@ -3,7 +3,7 @@
 # An escape character is a backslash \ followed by the character you want to insert.
 
 # The escape character allows you to use double quotes when you normally would not be allowed:
-txt = "We are the so-called \"Vikings\" from the north."
+txt = "We are the so-called \"Vikings\" from the north."  #We are the so-called "Vikings" from the north.
 
 # Other escape characters used in Python:
 

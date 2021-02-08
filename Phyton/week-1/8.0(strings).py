@@ -5,16 +5,16 @@
 --------------------------------------------------
 # 2.Assign String to a Variable 
 
-#a = "Hello"
-#print(a)
+a = "Hello"
+print(a)
 ---------------------------------------------------------
 # 3.Multiline Strings 多行字符串
 # You can assign a multiline string to a variable by using 3 quotes . Or three single quotes:'''
-a = """Lorem ipsum dolor sit amet,
+b = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
-print(a)
+print(b)
 ---------------------------------------------------------
 # 4.Strings are Arrays 字符串是数组
 # Get the character at position 1 (remember that the first character has the position 0): 获取第一位置的字符.
@@ -39,7 +39,7 @@ print(len(a))
 txt = "The best things in life are free!"
 print("free" in txt)
 ------------------------------------------------------
-# 8.Use it in an if statement:
+# 8.Use it in an "if statement":
 # print only if "expensive" is NOT present:
 txt = "The best things in life are free!"
 if "expensive" not in txt:
