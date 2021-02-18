@@ -4,5 +4,5 @@
  "git branch -M main" + git remote add origin "link of your repos. + "git push -u origin main".
 
 	!!! 2.If you want to modify the existing repository.(for egamle, you created a new 1.cpp)
- git add . 1.cpp + git commit -m "Write any commit" + "git push -u origin main" . 
+ git add . 1.cpp + git commit -m "Write any commit" + "git push" . 
 	或者在改了之和，进入VS code, 选择“暂存更改”，之后选择 “提交”， 然后点击下方的“同步”按钮.
