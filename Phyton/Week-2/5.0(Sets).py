@@ -59,3 +59,5 @@ print(type(myset))
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 print(thisset)
 ------------------------------------------------------------------------------------------------------------------------------
+#   12.Constract empty set:
+s = set()

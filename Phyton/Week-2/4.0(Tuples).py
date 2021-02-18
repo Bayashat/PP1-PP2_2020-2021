@@ -55,3 +55,5 @@ Using the tuple() method to make a tuple:
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
 -----------------------------------------------------------------------------------------------------------------------------------------
+#   12.Create empty tuple:
+t = tuple()
