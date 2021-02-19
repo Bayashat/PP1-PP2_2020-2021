@@ -2,12 +2,12 @@
 thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)   # "apple","cherry"
--------------------------------------------------------------
+------------------------------------------------------------
 #   2.Remove Specified Index
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
 print(thislist)   # "apple","cherry"
----------------------------------------------------------------
+--------------------------------------------------------------
 #   3.del keyword 
 The del keyword can also delete the list completely:
 
@@ -19,5 +19,5 @@ The clear() method empties the list.
 
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
-print(thislist)
+print(thislist) # []
 ------------------------------------------------------------------

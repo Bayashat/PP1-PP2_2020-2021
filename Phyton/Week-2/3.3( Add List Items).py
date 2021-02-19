@@ -16,7 +16,7 @@ Add the elements of "tropical" to "thislist":
 thislist = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
-print(thislist)
+print(thislist)  # ['apple', 'banana', 'cherry', 'mango', 'pineapple', 'papaya']
 --------------------------------------------------------------------------------
 #   4.Add Any Iterable
 Add elements of a tuple to a list:
@@ -24,5 +24,5 @@ Add elements of a tuple to a list:
 thislist = ["apple", "banana", "cherry"]
 thistuple = ("kiwi", "orange")
 thislist.extend(thistuple)
-print(thislist)
+print(thislist) # ['apple', 'banana', 'cherry', 'kiwi', 'orange']
 --------------------------------------------------------------------------------
