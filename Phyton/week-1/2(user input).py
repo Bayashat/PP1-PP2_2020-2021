@@ -1,11 +1,30 @@
-# Python 3.6 uses the input() method.
+#       < 2.1> 输⼊
+# 在Python中，程序接收⽤用户输⼊入的数据的功能即是输⼊： 从键盘获取输入的内容，存入计算机程序中
+
+--------------------------------------------------------------------------------------------------------------
+
+#   < 2.2 > 
+#  Python 3.6 uses the input() method.
 
 # Python 2.7 uses the raw_input() method.
 
-# 1.Python 3.6
+# Python 3.6
 username = input("Enter username:")
 print("Username is: " + username)
 
-# 2.Python 2.7
+# Python 2.7
 username = raw_input("Enter username:")
 print("Username is: " + username)
+--------------------------------------------------------------------------------------------------------------
+
+#  < 2.3 > 输⼊的特点
+1.遇到input,等待用户输入
+2.  input 接收⽤户输入后，⼀般存储到变量，⽅便使用。
+3. input 接受到的数据类型都是 str
+
+password = input('请输⼊入您的密码：')
+print(f'您输入的密码是{password}')
+
+print(type(password))   # <class 'str'>
+
+-------------------------------------------------------------------------------------------------------------------

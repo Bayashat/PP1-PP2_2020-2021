@@ -1,31 +1,45 @@
-#   1.Sort List Alphanumerically
+# list.sort() : 默认从小到大排序
+#   1.Sort List Alphanumerically 
 Sort the list alphabetically:
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
-print(thislist)
+print(thislist) # ['banana', 'kiwi', 'mango', 'orange', 'pineapple']
 
 ---------------------------------------------------------------------------------
+
 #   2.Sort the list numerically:
 
 thislist = [100, 50, 65, 82, 23]
 thislist.sort()
-print(thislist)
+print(thislist) # [23, 50, 65, 82, 100]
 
 ------------------------------------------------------------------------------------------
-#   3.Sort Descending
-To sort descending, use the keyword argument reverse = True:
+
+#   3.Sort Descending : 若想从大到小排序，使用: list.sort(reverse=True)
+# 语法 ： 列表序列.sort(key=None, reverse=false)
+# reverse = True 是降序   reverse = False 是升序
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort(reverse = True)
-print(thislist)
+print(thislist) # ['pineapple', 'orange', 'mango', 'kiwi', 'banana']
 
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(reverse = True)
-print(thislist)
+print(thislist) # [100, 82, 65, 50, 23]
+
+-------------------------------------------------------------------------------------------
+
+#  《4》 sorted(list) : 不会在原列表中进行排序，会得到一个新的列表:
+my_list = [3,7,4,2,8,5,3]
+my_list2 = sorted(my_list) 
+print(my_list2) # [2,3,3,4,5,7,8]
+
+my_list2 = sorted(my_list, reverse=True)
+print(my_list2) # [[8, 7, 5, 4, 3, 3, 2]]
 
 ------------------------------------------------------------------------------------------
-#   4.Customize Sort Function
+#   5.Customize Sort Function
 You can also customize your own function by using the keyword argument key = function.
 
 Sort the list based on how close the number is to 50:
@@ -37,7 +51,7 @@ thislist = [100, 50, 65, 82, 23]
 thislist.sort(key = myfunc)
 print(thislist)
 ----------------------------------------------------------------------------------------------
-#   5.Case Insensitive Sort
+#   6.Case Insensitive Sort
 ##若不区分大小写会先将大的sort:
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.sort()
@@ -50,7 +64,7 @@ thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.sort(key = str.lower)
 print(thislist)
 ----------------------------------------------------------------------------------------
-#   6.Reverse Order
+#   7.Reverse Order : 会改变原列表
 
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse()

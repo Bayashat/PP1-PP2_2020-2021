@@ -1,3 +1,8 @@
+    语句: 
+    for 临时变量 in 序列:
+      重复执行的代码1
+      重复执行的代码2
+    
     # 1.Python For Loops
 # Print each fruit in a fruit list:
 fruits = ["apple", "banana", "cherry"]

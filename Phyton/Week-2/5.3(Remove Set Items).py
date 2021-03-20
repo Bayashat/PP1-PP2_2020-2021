@@ -1,31 +1,33 @@
-#   1.Remove Item
-To remove an item in a set, use the "remove()", or the "discard()" method.
+------------------------------------------------------------------------------------------------------
+##   <1> Remove() ： 删除集合中的指定数据，如果数据不存在则报错
+thisset = {10，20，30，40，50}
 
-## 1)
-thisset = {"apple", "banana", "cherry"}
+thisset.remove(10)
+print(thisset) # {20，30，40，50}
 
-thisset.remove("banana")
+thisset.remove(100) # Error
 
-print(thisset)
-## 2)
-Remove "banana" by using the discard() method:
+------------------------------------------------------------------------------------------------------
+##  <2> discard() : 删除集合中的指定数据，如果数据不存在也不会报错
+thisset = {10,20,30,40,50}
 
-thisset = {"apple", "banana", "cherry"}
+thisset.discard(10)
+print(thisset)  # {20,,30,40,50}
 
-thisset.discard("banana")
+thisset.remove(100) 
+print(thisset) # 20,30,40,50
 
-print(thisset)
 ####  Note: If the item to remove does not exist, discard() will NOT raise an error.
---------------------------------------------------------------------------------------------
-#   2.pop()
+-------------------------------------------------------------------------------------------------------------------
+#   <3>.pop() ： 随机删除集合中的某个数据，并返回这个数据.
 # You can also use the pop() method to remove an item, but this method will remove the last item. Remember that sets are unordered, so you will not know what item that gets removed.
 
-thisset = {"apple", "banana", "cherry"}
+thisset = {10,20,30,40,50}
 x = thisset.pop()
 
-print(x)
+print(x)    # 40
 
-print(thisset)
+print(thisset) # 10,20,30,50
 --------------------------------------------------------------------------------------------------
 #   3.clear()
 The clear() method empties the set:

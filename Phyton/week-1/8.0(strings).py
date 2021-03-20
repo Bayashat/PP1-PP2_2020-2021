@@ -31,13 +31,13 @@ for x in "banana": # 遍历banana
 #To get the length of a string, use the len() function.
 #The len() function returns the length of a string:
 a = "Hello, World!"
-print(len(a))
+print(len(a)) # 12
 ----------------------------------------------------
 # 7.Check String
 # To check if a certain phrase or character is present in a string, we can use the keyword "in".
 # Check if "free" is present in the following text:
 txt = "The best things in life are free!"
-print("free" in txt)
+print("free" in txt)  # True
 ------------------------------------------------------
 # 8.Use it in an "if statement":
 # print only if "expensive" is NOT present:

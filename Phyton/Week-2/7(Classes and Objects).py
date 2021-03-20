@@ -9,7 +9,7 @@ Now we can use the class named MyClass to create objects:
 Create an object named p1, and print the value of x:
 
 p1 = MyClass()
-print(p1.x)
+print(p1.x) # 5
 ----------------------------------------------------------------------------------------
 #   3.The __init__() Function
 Create a class named Person, use the __init__() function to assign values for name and age:

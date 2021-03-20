@@ -35,6 +35,6 @@ fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
 print(green)    # apple
 print(tropic)   # ['mango', 'papaya', 'pineapple']
-print(red)      І cherry
+print(red)      # cherry
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------

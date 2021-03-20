@@ -3,6 +3,10 @@ thisdict = {
   "model": "Mustang",
   "year": 1964
 }
+# 字典 dict 使用 {} 定义，是由键值对组成的(key-value)
+# 变量 = {key1:value1, key2:value2,...}
+# key 可以是字符串类型和数字类型(int,float),不能是列表
+# value值可以是任何类型
 -------------------------------------------------------------------------------------------------------
 #   1.Dictionary
 Dictionaries are used to store data values in key:value pairs.
@@ -44,7 +48,7 @@ use the len() function:
 
 print(len(thisdict))
 ------------------------------------------------------------------------------------------------------------------------------\
-#   7.ictionary Items - Data Types
+#   7.dictionary Items - Data Types
 The values in dictionary items can be of any data type:
 
 thisdict = {
@@ -68,3 +72,4 @@ print(type(thisdict))
 --------------------------------------------------------------------------------------------------------------------------------
 #   9.Create empty dict:
 d = {}
+d = dict()

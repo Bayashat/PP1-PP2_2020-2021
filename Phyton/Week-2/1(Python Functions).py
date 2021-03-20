@@ -17,9 +17,9 @@ Arguments are often shortened to "args" in Python documentations.
 def my_function(fname):
   print(fname + " Refsnes")
 
-my_function("Emil")
-my_function("Tobias")
-my_function("Linus")
+my_function("Emil") # Emil Refsnes
+my_function("Tobias") # Tobias Refsnes
+my_function("Linus")  # Linus Refsnes
 ---------------------------------------------------------------------------------------
 #  4.Arbitrary Arguments, *args
 If the number of arguments is unknown, add a * before the parameter name:
@@ -27,9 +27,8 @@ If the number of arguments is unknown, add a * before the parameter name:
 def my_function(*kids):
   print("The youngest child is " + kids[2])
 
-my_function("Emil", "Tobias", "Linus")
+my_function("Emil", "Tobias", "Linus")  # The youngest child is Linus
 
-Arbitrary Arguments are often shortened to "*args" in Python documentations.
 -------------------------------------------------------------------------------------------
 #  5.Keyword Arguments
 You can also send arguments with the key = value syntax.
@@ -101,11 +100,37 @@ tri_recursion(6)
 -----------------------------------------------------------------------------------------------------
 #  12.
 def my_function(x:int):
-    print(x)
+  print(x)
 
 my_function(3)
 
 def my_function(x:str):
-    print(x)
+  print(x)
 
 my_function(3)
+---------------------------------------------------------------------------------------------------------------
+#   13.函数的说明文档:
+# 定义函数的说明文档:
+
+def 函数名(参数):
+  """ 说明文档的位置 """
+  代码
+  ......
+
+# 查看函数的说明文档:
+help(Function name)
+
+-------------------------------------------------------------------------------------------------------------------
+#   14. 2 returns:
+# 一个函数多个返回值的方法:
+def return_num():
+  return 1, 2  # 返回tuple
+  # 在return后面可以直接写 元组， 列表， 字典， 返回多个值
+  return (10,20)
+  return [100,200]
+  return {'name':'python', 'age': 20}
+
+result = return_num()
+print(result) # (1, 2)
+
+---------------------------------------------------------------------------------------------------------------------

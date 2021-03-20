@@ -1,4 +1,6 @@
+### Tuple的元素不能修改
 mytuple = ("apple", "banana", "cherry")
+
 #   1. tuple is a collection which is ordered and unchangeable.
 
 Tuples are written with round brackets.
@@ -29,8 +31,10 @@ print(len(thistuple))
 #   7.Create Tuple With One Item
 To create a tuple with only one item, you have to add a "comma" after the item
 
-thistuple = ("apple",)
+thistuple = ("apple",)  # 定义一个元组时要加逗号
 print(type(thistuple))
+
+tuple2 = (10)  # int类型
 ------------------------------------------------------------------------------------------------------------------------------
 #   8.Tuple Items - Data Types
 
@@ -57,3 +61,4 @@ print(thistuple)
 -----------------------------------------------------------------------------------------------------------------------------------------
 #   12.Create empty tuple:
 t = tuple()
+t2 = ()
